@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <section id="info">
+            <p id="budzet">Dostupan budzet:</p>
+            <p id="prikaz"></p>
+            <div id="prihod">
+                <span class="ras">PRIHOD</span>
+                <span id="procenat2"></span>
+                <span class="iznos"></span>
+            </div>
+            <div id="rashod">
+                <span class="ras">RASHOD</span>
+                <span id="procenat"></span>
+                <span class="iznos"></span>
+            </div>
+        </section>
+        <section id="input">
+            <button id="istorija">Istorija unosa</button>
+            <select id="select">
+                <option value=""></option>
+                <option value="prihod">prihod</option>
+                <option value="rashod">rashod</option>
+            </select>
+            <input type="text" placeholder="opis..." id="inputOpis">
+            <input type="number" placeholder="iznos" id="inputIznos">
+            <button id="btn">OK</button>
+        </section>
+        <section id="display">
+            <div id="listaPrihoda">
+                <p class="naslov">Prihodi</p>
+            </div>
+            <div id="listaRashoda">
+                <p class="naslov">Rashodi</p>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
